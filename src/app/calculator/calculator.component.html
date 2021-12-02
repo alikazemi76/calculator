@@ -1,0 +1,23 @@
+<input [(ngModel)]="result" class="input" >
+<br>
+
+<app-button title="1" (data)="getData($event)"></app-button>
+<app-button title="2" (data)="getData($event)"></app-button>
+<app-button title="3" (data)="getData($event)"></app-button>
+<app-button title="4" (data)="getData($event)"></app-button>
+<br>
+<app-button title="5" (data)="getData($event)"></app-button>
+<app-button title="6" (data)="getData($event)"></app-button>
+<app-button title="7" (data)="getData($event)"></app-button>
+<app-button title="8" (data)="getData($event)"></app-button>
+<br>
+<app-button title="9" (data)="getData($event)"></app-button>
+<app-button title="0" (data)="getData($event)"></app-button>
+<app-button title="*" (operand)="getOperand($event)"></app-button>
+<app-button title="/" (operand)="getOperand($event)"></app-button>
+<br>
+<app-button title="+" (operand)="getOperand($event)"></app-button>
+<app-button title="-" onc (operand)="getOperand($event)"></app-button>
+<app-button css="btn_equal" title="=" (data)="resultant()"></app-button>
+<!--<app-button css="btn_equal" title="=" (data)="getData($event)"></app-button>-->
+<br>
